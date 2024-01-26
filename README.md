@@ -1,6 +1,6 @@
 # Bizis-Zaragoza-Registration
 
-<<<<<<< HEAD
+
 This is a project developed in Angular, which consists of creating an account and logging in so that you can access the list of bicycles in Zaragoza (through a database).
 
 You will also have the option to see the map of Zaragoza bikes.
