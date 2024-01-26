@@ -1,0 +1,36 @@
+#map {
+  margin-left: 0.5%;
+  height: 630px;
+  width: 99%;
+  border: 2px solid black;
+}
+
+#initMap {
+  text-align: center;
+  color: grey;
+  font-family: "Cool Font", sans-serif;
+}
+
+
+#buttonForList {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0.5%;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#buttonForList:hover {
+  background-color: #2980b9;
+}
+
+#buttonForList:active {
+  background-color: #1f618d;
+}

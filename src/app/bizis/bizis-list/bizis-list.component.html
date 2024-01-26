@@ -1,0 +1,23 @@
+<table class="table table-striped table-bordered">
+    <caption>Listado de Bizis de Zaragoza</caption>
+    <thead>
+      <tr>
+        <th scope="col">Estado</th>
+        <th scope="col">Estación</th>
+        <th scope="col" class="text-center">Bicis disponibles</th>
+        <th scope="col" class="text-center">Última actualización</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let bizi of dataPaged">
+        <td><img src="{{bizi.icon}}" /></td>
+        <td>{{bizi.title}}</td>
+        <td align="center">{{bizi.bicisDisponibles ? bizi.bicisDisponibles : 0 }}</td>
+        <td align="center">{{bizi.lastUpdated | date: 'dd/MM/yyyy HH:mm'}}</td>
+      </tr>
+    </tbody>
+</table>
+<ngb-pagination [collectionSize]="data.length" [(page)]="page" (pageChange)="pageChange()"
+    aria-label="Default pagination"></ngb-pagination>
+<button id="buttonForMap" (click)="showMap()">MAP</button>
+  
