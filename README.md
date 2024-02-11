@@ -14,3 +14,5 @@ To view the website, follow these steps:
 3. Look for the URL that appears in the console and click on it to access the website.
 
 The URL that appears in the console, do Ctrl+Click to access it.
+
+This project was done with the help of Raul Novoa Minguez (Web standards teacher of San Jorge University).
